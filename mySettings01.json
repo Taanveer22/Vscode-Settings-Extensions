@@ -1,0 +1,28 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "emmet.preferences": {
+
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "git.openRepositoryInParentFolders": "never"
+}
