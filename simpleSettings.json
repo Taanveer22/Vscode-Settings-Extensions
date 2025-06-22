@@ -1,0 +1,68 @@
+{
+  // Indentation
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+  // Formatting
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Auto-save
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Files
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // ESLint
+  "eslint.enable": true,
+  "eslint.format.enable": false,
+  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.lintTask.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+
+  // Prettier
+  "prettier.requireConfig": false,
+  "prettier.semi": true,
+  "prettier.trailingComma": "es5",
+  "prettier.tabWidth": 2,
+
+  // Editor UI
+  "editor.fontSize": 22,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "selection",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "expand",
+
+  // Error Lens
+  "errorLens.enabled": true,
+  "errorLens.fontWeight": "bold",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.margin": "4ch",
+
+  // Theme & Icons
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+
+  // Terminal
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
