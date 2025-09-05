@@ -1,0 +1,81 @@
+{
+  // ============= NEVER CHANGE SETTINGS ==========
+  "editor.fontSize": 24,
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+
+  // ====== CROSS-PLATFORM CORE SETTINGS ======
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+
+  // ====== CASE SENSITIVITY PROTECTION ======
+  "problems.decorations.enabled": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.exclude": {
+    "**/*.jsx": {
+      "when": "$(basename).jsx != $(basename).toLowerCase()"
+    }
+  },
+
+  // ====== AUTO IMPORT / INTELLISENSE ======
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // ====== FILE SCAN FOR AUTOIMPORT PLUGINS ======
+  "autoimport.filesToScan": "**/*.{js,jsx,ts,tsx}",
+  "autoimport.showNotifications": true,
+
+  // ====== PATH INTELLISENSE ======
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": true,
+  "path-intellisense.showHiddenFiles": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src"
+  },
+
+  // ====== FORMATTING AND SNIPPETS ======
+
+  "editor.snippetSuggestions": "top",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ====== UI / ICONS ======
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.wordWrap": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.autoIndentOnPaste": true,
+  "security.workspace.trust.untrustedFiles": "open"
+}
