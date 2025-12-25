@@ -1,0 +1,117 @@
+{
+  // ===============================
+  // REACT / JSX / TSX CORE
+  // ===============================
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+
+  // ===============================
+  // SNIPPETS + EMMET (STABLE)
+  // ===============================
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "off",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+
+  // ===============================
+  // JAVASCRIPT / TYPESCRIPT
+  // ===============================
+  "javascript.validate.enable": true,
+  // ................................
+  "typescript.validate.enable": true,
+  // ................................
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "javascript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+
+  // ===============================
+  // INTELLISENSE BEHAVIOR
+  // ===============================
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+
+  // ===============================
+  // PATH ALIAS SUPPORT (@/src)
+  // ===============================
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": false,
+  "path-intellisense.showHiddenFiles": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src"
+  },
+
+  // ===============================
+  // FORMATTING (PRETTIER)
+  // ===============================
+  "editor.formatOnSave": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+
+  // ===============================
+  // EDITOR UX
+  // ===============================
+  "editor.fontSize": 24,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+
+  // ===============================
+  // TERMINAL
+  // ===============================
+  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // ===============================
+  // FILE SYSTEM
+  // ===============================
+  "files.autoSave": "afterDelay",
+  "files.eol": "\n",
+
+  // ===============================
+  // UI
+  // ===============================
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+
+  // ===============================
+  // SECURITY
+  // ===============================
+  "security.workspace.trust.untrustedFiles": "open"
+}
