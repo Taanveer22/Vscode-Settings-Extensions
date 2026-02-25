@@ -1,0 +1,151 @@
+{
+  // ======================================================
+  // 🔥 REACT / JSX / TSX SUPPORT
+  // ======================================================
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+
+  // ======================================================
+  // 🚀 EMMET + SNIPPETS (Optimized for React Dev Speed)
+  // ======================================================
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabCompletion": "on",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+
+  // ======================================================
+  // 🧠 JAVASCRIPT / TYPESCRIPT ENGINE
+  // ======================================================
+  "javascript.validate.enable": true,
+  "typescript.validate.enable": true,
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "javascript.preferences.importModuleSpecifier": "shortest",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+
+  // ======================================================
+  // 🎯 ESLINT + AUTO FIX + IMPORT ORGANIZATION
+  // ======================================================
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always"
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "eslint.format.enable": false,
+
+  // ======================================================
+  // ✨ PRETTIER (Conflict-Free Setup)
+  // ======================================================
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ======================================================
+  // 📂 PATH ALIAS SUPPORT (@ → src)
+  // (Ensure this also exists in jsconfig.json / tsconfig.json)
+  // ======================================================
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.extensionOnImport": false,
+  "path-intellisense.showHiddenFiles": false,
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src"
+  },
+
+  // ======================================================
+  // 🧩 INTELLISENSE BEHAVIOR
+  // ======================================================
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+
+  "editor.inlineSuggest.enabled": true,
+
+  // ======================================================
+  // 👀 CODE READABILITY (Great for Backend / Express APIs)
+  // ======================================================
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.wordWrap": "on",
+
+  // ======================================================
+  // 🖥️ EDITOR UX (Balanced for Productivity)
+  // ======================================================
+  "editor.fontSize": 22,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.minimap.enabled": false,
+
+  // ======================================================
+  // 💻 TERMINAL (Optimized for Node / Git / Mongo)
+  // ======================================================
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // ======================================================
+  // 📁 FILE SYSTEM
+  // ======================================================
+  "files.autoSave": "off",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+
+  // ======================================================
+  // 🔐 SECURITY
+  // ======================================================
+  "security.workspace.trust.untrustedFiles": "prompt",
+
+  // ======================================================
+  // 🗂️ GIT (Professional Workflow)
+  // ======================================================
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  // ======================================================
+  // 🎨 EDITOR UI (Balanced for Consistency)
+  // ======================================================
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+"
+}
