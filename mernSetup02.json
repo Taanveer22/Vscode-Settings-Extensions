@@ -1,0 +1,117 @@
+{
+  // ─── JS / TS Intelligence ───────────────────────────────────────
+  "js/ts.suggest.autoImports": true,
+  "js/ts.suggest.completeFunctionCalls": true,
+  "js/ts.suggest.includeAutomaticOptionalChainCompletions": true,
+  "js/ts.preferences.jsxAttributeCompletionStyle": "auto",
+
+  // ✅ Replace deprecated typescript/javascript preferences
+  "js/ts.preferences.importModuleSpecifier": "relative",
+  "js/ts.preferences.updateImportsOnFileMove": "always",
+
+  // ─── Editor Intelligence ─────────────────────────────────────────
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [80, 120],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.suggest.preview": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+
+  // ─── Formatting & Linting ────────────────────────────────────────
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.organizeImports": "always",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+
+  // ─── Looks / UI ──────────────────────────────────────────────────
+  "editor.fontSize": 22,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.8,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Dark+",
+  "workbench.tree.indent": 16,
+  "workbench.list.smoothScrolling": true,
+
+  // ─── React / JSX ─────────────────────────────────────────────────
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+  },
+  "emmet.triggerExpansionOnTab": true,
+
+  // ─── Terminal (critical for MERN) ────────────────────────────────
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.4,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  // ─── File Management ─────────────────────────────────────────────
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true,
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, .env*, .eslint*, .prettier*, vite.config*, firebase.json, .firebaserc",
+    "*.js": "${capture}.test.js, ${capture}.spec.js",
+    "*.jsx": "${capture}.test.jsx, ${capture}.spec.jsx",
+  },
+
+  // ─── Git ─────────────────────────────────────────────────────────
+  "git.autofetch": true,
+  "git.decorations.enabled": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetchPeriod": 60,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // ─── Node / Debugging ────────────────────────────────────────────
+  "debug.node.autoAttach": "smart",
+  "debug.javascript.autoAttachFilter": "smart",
+  "node.enableDebugger": true,
+
+  // ─── Performance ─────────────────────────────────────────────────
+  "extensions.ignoreRecommendations": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.hover.delay": 300,
+  "workbench.iconTheme": "vscode-icons",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "chat.disableAIFeatures": true,
+}
