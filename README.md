@@ -1,4 +1,4 @@
-# 🚀 VS Code & MERN Stack Workspace Pro
+# 🚀 JavaScript & TypeScript Dev Environment Settings (MERN Stack Major) 
 
 ⚡ **High-Performance Editor Configurations | MERN | React JS | Next JS | JavaScript | TypeScript 
 
